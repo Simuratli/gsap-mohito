@@ -6,7 +6,6 @@ import { useMediaQuery } from "react-responsive";
 
 const Hero = () => {
   const videoRef = useRef<HTMLVideoElement | null>(null);
-  const videoTimelineRef = useRef(null);
   const isMobile = useMediaQuery({ maxWidth: 767 });
 
   useGSAP(() => {
